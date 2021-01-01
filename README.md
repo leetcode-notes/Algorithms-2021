@@ -8,6 +8,8 @@ Owen's Algorithm Problem Solving Note
 
 #### Round D
 
+1. Record Breaker / Array Sort / AC / 2021.01.01
+
 #### Round E
 
 #### Round F
