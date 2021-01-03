@@ -8,8 +8,9 @@ Owen's Algorithm Problem Solving Note
 
 #### Round D
 
-1. Record Breaker / Array Sort / AC / 2021.01.01
-2. Alien Piano / Greedy / AC / 2021.01.01
+1. [Record Breaker](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_D_1.java) / Array Sort / AC / 2021.01.01
+2. [Alien Piano](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_D_2.java) / Greedy / AC / 2021.01.01
+3. [Beauty of tree](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_D_3.java) / DFS / AC / 2021.01.03
 
 #### Round E
 
