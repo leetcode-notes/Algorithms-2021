@@ -18,8 +18,6 @@ public class Kickstart_2020_D_2 {
 			int upCnt = 0;
 			int downCnt = 0;
 			int ans = 0;
-			HashSet<Integer> set = new HashSet<>();
-			set.add(aryLst.get(0));
 			for (int j = 1; j < aryLst.size(); j++) {
 				if (aryLst.get(j) > aryLst.get(j-1)) {
 					upCnt += 1;
@@ -32,8 +30,6 @@ public class Kickstart_2020_D_2 {
 					ans++;
 					upCnt = 0;
 					downCnt = 0;
-					set = new HashSet<>();
-					set.add(aryLst.get(j));
 				}
 			}
 			System.out.println("Case #" + i + ": "+ans);
