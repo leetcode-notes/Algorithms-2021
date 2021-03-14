@@ -14,4 +14,6 @@ Owen's Algorithm Problem Solving Note
 
 #### Round E
 
+1. [Longest Arithmetic](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_E_1.java) / Array / AC / 2021.03.15
+
 #### Round F
