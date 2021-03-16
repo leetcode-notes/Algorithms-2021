@@ -15,6 +15,7 @@ Owen's Algorithm Problem Solving Note
 #### Round E
 
 1. [Longest Arithmetic](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_E_1.java) / Array / AC / 2021.03.15
-2. [High Buildings](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_E_2.java) / Array / AC / 2021.03.15
+2. [High Buildings](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_E_2.java) / List / AC / 2021.03.15
+3. [Toys](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_E_3.java) / Priority Queue / AC / 2021.03.17
 
 #### Round F
