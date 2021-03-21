@@ -25,3 +25,4 @@ Owen's Algorithm Problem Solving Note
 #### Round A
 
 1. K-Goodness String / Array / AC / 2021.03.21
+2. L Shaped Plots / Search / AC / 2021.03.21
