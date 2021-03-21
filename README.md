@@ -19,3 +19,9 @@ Owen's Algorithm Problem Solving Note
 3. [Toys](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2020_E_3.java) / Priority Queue / AC / 2021.03.17
 
 #### Round F
+
+### 2021
+
+#### Round A
+
+1. K-Goodness String / Array / AC / 2021.03.21
