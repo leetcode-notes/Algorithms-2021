@@ -24,5 +24,6 @@ Owen's Algorithm Problem Solving Note
 
 #### Round A
 
-1. K-Goodness String / Array / AC / 2021.03.21
-2. L Shaped Plots / Search / AC / 2021.03.21
+1. [K-Goodness String](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2021_A_1.java) / Array / AC / 2021.03.21
+2. [L Shaped Plots](https://github.com/dev-owen/Algorithms-2021/blob/main/src/KickStart_2021_A_2.java) / Search / AC / 2021.03.21
+3. [Rabbit House](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2021_A_3.java) / Priority Queue / WA / 2021.03.21
