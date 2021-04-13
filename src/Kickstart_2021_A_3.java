@@ -41,7 +41,7 @@ public class Kickstart_2021_A_3 {
 					}
 				}
 			}
-			int sumBoxes = 0;
+			long sumBoxes = 0L;
 			while (!pq.isEmpty()) {
 				int topHeight = pq.poll();
 				ArrayList<Point> list = hm.get(topHeight);
