@@ -58,15 +58,17 @@ public class Kickstart_2021_B_2 {
 				int exStart = aryList.get(0).start;
 				int exEnd = aryList.get(0).end;
 				if(aryList.size() == 1) {
-					max = Math.max(Math.min(N, exEnd - exStart + 1), max);
+					max = Math.max(Math.min(N, exEnd - exStart + 2), max);
 					continue;
 				}
 				for(int j = 1; j < aryList.size(); j++) {
 					Sequence seq = aryList.get(j);
 					if (seq.start - exEnd == 1) {
-						max = Math.max(Math.max(seq.end - seq.start + 1, exEnd - exStart + 1), max);
+						max = Math.max(Math.max(seq.end - seq.start + 2, exEnd - exStart + 2), max);
 					} else if (seq.start - exEnd == 2) {
 						max = Math.max(seq.end - exStart, max);
+					} else {
+
 					}
 					exStart = seq.start;
 					exEnd = seq.end;
