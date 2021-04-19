@@ -18,12 +18,12 @@ public class Kickstart_2021_B_2 {
 			for(int j = 0; j < N; j++) {
 				arr[j] = Integer.parseInt(st.nextToken());
 				if(j >= 1) {
-					diffs[j] = arr[j]-arr[j-1];
+					diffs[j-1] = arr[j]-arr[j-1];
 					if(j == 1) {
 						cnt++;
-						diff = diffs[1];
+						diff = diffs[0];
 					} else {
-						if(diffs[j] == diff) {
+						if(diffs[j-1] == diff) {
 							cnt++;
 							if(j == N-1) {
 								if(hm.containsKey(diff)) {
@@ -47,7 +47,7 @@ public class Kickstart_2021_B_2 {
 								hm.put(diff, aryLst);
 							}
 							cnt = 1;
-							diff = diffs[j];
+							diff = diffs[j-1];
 						}
 					}
 				} else cnt++;
@@ -66,9 +66,8 @@ public class Kickstart_2021_B_2 {
 					if (seq.start - exEnd == 1) {
 						max = Math.max(Math.max(seq.end - seq.start + 2, exEnd - exStart + 2), max);
 					} else if (seq.start - exEnd == 2) {
-						max = Math.max(seq.end - exStart, max);
-					} else {
-
+						if(diffs[exEnd] + diffs[exEnd+1] == diffs[exEnd-1]*2) max = Math.max(seq.end - exStart + 1, max);
+						else max = Math.max(Math.max(seq.end - seq.start + 2, exEnd - exStart + 2), max);
 					}
 					exStart = seq.start;
 					exEnd = seq.end;
