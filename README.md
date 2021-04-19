@@ -35,3 +35,4 @@ Owen's Algorithm Problem Solving Note
 #### Round B
 
 1. [Increasing Substring](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2021_B_1.java) / Array / AC / 2021.04.19
+2. [Longest Progression](https://github.com/dev-owen/Algorithms-2021/blob/main/src/Kickstart_2021_B_1.java) / HashMap / WA / 2020.04.19
